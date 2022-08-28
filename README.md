@@ -1,4 +1,4 @@
-# Swift_Sport_App
+# Swift Sport App
 Development of the first application in the Swift language. Development of a sports application for calculating the rating of coaches.
 
 # The application has the following functionality:
