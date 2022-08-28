@@ -7,6 +7,8 @@
 
 import UIKit
 
+//  Main class MyTableViewCell for the table
+//
 class MyTableViewCell: UITableViewCell {
 
     //  Adding a Label
