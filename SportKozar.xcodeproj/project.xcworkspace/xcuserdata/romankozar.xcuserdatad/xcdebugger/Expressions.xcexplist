@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "ViewController.numberOfSections(in:):ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "stringArray.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.tableView(_:cellForRowAt:):ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "indexPath.row">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.addTrainerAction(_:):ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "stringArray">
+            </PersistentString>
+            <PersistentString
+               value = "stringArray[0][0]">
+            </PersistentString>
+            <PersistentString
+               value = "counterSection">
+            </PersistentString>
+            <PersistentString
+               value = "IndexPath(item: stringArray[counterSection].count, section: stringArray.count)]">
+            </PersistentString>
+            <PersistentString
+               value = "stringArray.count">
+            </PersistentString>
+            <PersistentString
+               value = "stringArray[counterSection]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.init(coder:):ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "stringArray.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.tableView(_:numberOfRowsInSection:):ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "stringArray.count">
+            </PersistentString>
+            <PersistentString
+               value = "stringArray[section]">
+            </PersistentString>
+            <PersistentString
+               value = "stringArray[section].count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
