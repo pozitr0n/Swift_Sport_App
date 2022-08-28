@@ -37,6 +37,7 @@ class Sportsman {
 //  Properties:
 //      total: Double
 //      win: Double
+//
 class Coaches: Sportsman {
     
     var total: Double
@@ -65,6 +66,7 @@ class Coaches: Sportsman {
 
 //  Common class ViewController
 //  !!! Confirmation of the UITextFieldDelegate delegation protocol
+//
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, UITextFieldDelegate {
     
     //  Data array for table
