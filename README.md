@@ -11,3 +11,5 @@ Development of the first application in the Swift language. Development of a spo
 
 ### In this case, all situations of incorrect input are taken into account. 
 ### Also solved the situation of the keyboard disappearing after entering (by the Return button and after pressing the button in the application)
+
+#### App tested on physical device iPhone 12 Pro
