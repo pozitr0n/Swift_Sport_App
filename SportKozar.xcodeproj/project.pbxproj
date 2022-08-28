@@ -16,6 +16,7 @@
 		4D7B4EB428BAA9CF001CD094 /* SportKozarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7B4EB328BAA9CF001CD094 /* SportKozarTests.swift */; };
 		4D7B4EBE28BAA9CF001CD094 /* SportKozarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7B4EBD28BAA9CF001CD094 /* SportKozarUITests.swift */; };
 		4D7B4EC028BAA9CF001CD094 /* SportKozarUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7B4EBF28BAA9CF001CD094 /* SportKozarUITestsLaunchTests.swift */; };
+		4D7B4ECD28BBB0FC001CD094 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7B4ECC28BBB0FC001CD094 /* MyTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		4D7B4EB928BAA9CF001CD094 /* SportKozarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SportKozarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D7B4EBD28BAA9CF001CD094 /* SportKozarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportKozarUITests.swift; sourceTree = "<group>"; };
 		4D7B4EBF28BAA9CF001CD094 /* SportKozarUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportKozarUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4D7B4ECC28BBB0FC001CD094 /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				4D7B4E9E28BAA9CE001CD094 /* SceneDelegate.swift */,
 				4D7B4EA028BAA9CE001CD094 /* ViewController.swift */,
 				4D7B4EA228BAA9CE001CD094 /* Main.storyboard */,
+				4D7B4ECC28BBB0FC001CD094 /* MyTableViewCell.swift */,
 				4D7B4EA528BAA9CF001CD094 /* Assets.xcassets */,
 				4D7B4EA728BAA9CF001CD094 /* LaunchScreen.storyboard */,
 				4D7B4EAA28BAA9CF001CD094 /* Info.plist */,
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D7B4EA128BAA9CE001CD094 /* ViewController.swift in Sources */,
+				4D7B4ECD28BBB0FC001CD094 /* MyTableViewCell.swift in Sources */,
 				4D7B4E9D28BAA9CE001CD094 /* AppDelegate.swift in Sources */,
 				4D7B4E9F28BAA9CE001CD094 /* SceneDelegate.swift in Sources */,
 			);
@@ -454,7 +458,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -482,7 +486,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
