@@ -137,12 +137,15 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     //  Override the textFieldShoudReturn method, explicitly refer to the text field and use the resignFirstResponser method
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        
         coachFirstName.resignFirstResponder()
         coachLastName.resignFirstResponder()
         coachClub.resignFirstResponder()
         coachWin.resignFirstResponder()
         coachTotal.resignFirstResponder()
+        
         return true
+        
     }
     
     //  Button click event
