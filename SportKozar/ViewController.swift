@@ -217,7 +217,12 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     //  Input validation method: whether it is a number or not
     private func isDouble(text: String) -> Bool {
-        guard let _ = Double(text.replacingOccurrences(of: " ", with: " ")) else { return false }
+        
+        guard let _ = Double(text.replacingOccurrences(of: " ", with: " ")) else {
+            return false
+            
+        }
+        
         return true
     }
     
