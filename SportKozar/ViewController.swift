@@ -205,10 +205,12 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     //  Value Filling and Validation Method
     private func checkValues(_ firstName: String, _ lastName: String, _ club: String, _ win: String, _ total: String) -> Bool {
         
-        if !firstName.isEmpty && !lastName.isEmpty && !club.isEmpty &&
-            (!win.isEmpty && isDouble(text: win)) &&
-            (!total.isEmpty && isDouble(text: total)) {
+        if !firstName.isEmpty
+            && !lastName.isEmpty
+            && !club.isEmpty && (!win.isEmpty && isDouble(text: win)) && (!total.isEmpty && isDouble(text: total)) {
+            
             return true
+            
         } else {
             return false
         }
