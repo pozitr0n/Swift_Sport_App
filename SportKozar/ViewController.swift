@@ -154,7 +154,11 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         //  I don't know how to make it so that only a number can be entered in the input field on the form (controller).
         //  Therefore, I wrote a check so that if nothing is entered or not a number is entered, nothing happens.
         //  Otherwise there will be an error.
-        if checkValues(coachFirstName.text!, coachLastName.text!, coachClub.text!, coachWin.text!, coachTotal.text!) {
+        if checkValues(coachFirstName.text!,
+                       coachLastName.text!,
+                       coachClub.text!,
+                       coachWin.text!,
+                       coachTotal.text!) {
          
             //  Getting the entered values from the form (controller)
             let coachTotalDouble: Double = Double(coachTotal.text!)!
