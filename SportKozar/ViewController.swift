@@ -124,8 +124,9 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
        
         //  Get a cell
         guard let cell = (tableView.dequeueReusableCell(withIdentifier: MyTableViewCell.id,
-                                                        for: indexPath) as? MyTableViewCell) else {
-            fatalError()
+                                                        for: indexPath) as? MyTableViewCell)
+            else {
+                fatalError()
         }
         
         //  Writing to the label of a cell of text from a table
