@@ -131,7 +131,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
         //  Writing to the label of a cell of text from a table
         cell.myLabel.text = stringArray[indexPath.section][indexPath.row]
-        
         return cell
         
     }
